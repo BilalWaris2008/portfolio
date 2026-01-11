@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,11 +12,55 @@
 }
 
 :root {
-    --nav-bg-color: rgba(255,255,255,.1);
+    --nav-bg-color: rgba(255, 255, 255, .1);
     --bg-color: #171f2b;
     --second-bg-color: #1f2733;
     --third-bg-color: #2d3542;
     --main-color: #0ef;
     --white-color: #fff;
     --tab-list-color: #7c8594;
+}
+
+::selection {
+    background: var(--main-color);
+    color: var(--bg-color);
+}
+
+::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--main-color);
+    border-radius: 1rem;
+}
+
+::placeholder{
+    color: var(--white-color);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    color: var(--white-color);
+    overflow: hidden;
+    background: seagreen;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+.nav{
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40rem;
+    padding: 2rem 0;
+    background: var(--nav-bg-color);
+    border-radius: 5rem;
+    z-index: 100;
 }
