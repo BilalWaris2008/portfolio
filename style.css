@@ -64,3 +64,15 @@ p{
     border-radius: 5rem;
     z-index: 100;
 }
+
+.nav .nav-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-list li{
+    position: relative;
+    display: flex;
+    font-size: 3rem;
+    cursor: pointer;
+}
