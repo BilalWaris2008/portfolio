@@ -134,3 +134,17 @@ p {
     align-items: center;
     gap: 5rem;
 }
+
+.home-info h1{
+    font-size: 5.5rem;
+    color: var(--main-color);
+    line-height: 1;
+}
+
+.home-info h3{
+    font-size: 3rem;
+}
+
+.desc{
+    margin: 1rem 0 2rem;
+}
