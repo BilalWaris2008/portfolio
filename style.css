@@ -46,7 +46,6 @@ html {
 body {
     color: var(--white-color);
     overflow: hidden;
-    background: seagreen;
 }
 
 p {
@@ -95,4 +94,14 @@ p {
     color: var(--bg-color);
     font-weight: 500;
     white-space: nowrap;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
 }
+
+.nav-list li:hover .tool-tip {
+    visibility: visible;
+    opacity: 1;
+}
+
+    
