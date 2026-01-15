@@ -40,7 +40,7 @@
 }
 
 html {
-    font-size: 60.5%;
+    font-size: 62.5%;
 }
 
 body {
@@ -325,4 +325,13 @@ a:hover .tool-tip {
     opacity: 1;
     transform: scale(1);
     transition: .5s;
+}
+
+.tab-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--third-bg-color);
+    border-radius: .8rem;
+    padding: 2rem;
 }
