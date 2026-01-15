@@ -335,3 +335,8 @@ a:hover .tool-tip {
     border-radius: .8rem;
     padding: 2rem;
 }
+
+.tab-item h4{
+    font-size: 2.3rem;
+    
+}
