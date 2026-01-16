@@ -345,3 +345,11 @@ a:hover .tool-tip {
 .tab-item p {
     margin-top: 1rem;
 }
+
+.resume-box.skills {
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+}
+
+.resume-box.skills .resume-item {
+    align-items: center;
+}
