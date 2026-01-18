@@ -530,3 +530,17 @@ a:hover .tool-tip,
     padding-top: 2rem;
     padding-bottom: 18rem;
 }
+
+.contact-wrapper{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70rem;
+}
