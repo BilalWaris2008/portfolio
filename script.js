@@ -18,7 +18,18 @@ navs.forEach((nav, idx) => {
 
         document.querySelector('.section.active').classList.remove('active');
         sections[idx].classList.add('active');
-    })
+
+        const array = Array.from(sections);
+        const arrSecs = array.slice(1, -1); //only requires indexes 1, 2, 3 or doesn't require start & end indexes 
+        arrSecs.forEach(arrSecs => {
+            if (arrSecs.classList.contains('active')) {
+                sections[4].classList.add('action-contact');
+            }
+        });
+        if (sections[0].classList.contains('active')) {
+            sections[4].classList.remove('action-contact');
+        }
+    });
 });
 
 // resume section when clicking tab list
@@ -42,3 +53,8 @@ portfolioLists.forEach((list, idx) => {
         portfolioBoxs[idx].classList.add('active');
     })
 });
+
+// visibility for contact section when reloading (cube reloading animation)
+setTimeout(() => {
+    sections[4].classList.remove('active');
+}, 1500);
