@@ -735,6 +735,10 @@ a:hover .tool-tip,
 }
 
 @media screen and (max-width: 350px) {
+    html{
+        font-size: 48%;
+    }
+
     .img-box {
         width: 24rem;
         height: 24rem;
